@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Welcome, {{ current_user.username }}!</h2>
+<p>Email: {{ current_user.email }}</p>
+<p>This is your personalized portal. 🎉</p>
+{% endblock %}

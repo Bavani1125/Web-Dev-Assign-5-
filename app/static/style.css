@@ -1,0 +1,72 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 500px;
+      margin: 5% auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    
+    form label {
+      margin-bottom: 0.5rem;
+      display: block;
+      font-weight: bold;
+    }
+    
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    form button,
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    form button:hover,
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    
+    nav {
+      background-color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #007bff;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    
+    .flash.success { color: green; }
+    .flash.danger { color: red; }
+    
+    p {
+      text-align: center;
+    }
+    
